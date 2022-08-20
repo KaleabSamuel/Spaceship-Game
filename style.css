@@ -1,0 +1,80 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #660066;
+    font-family: sans-serif;
+}
+
+#score-div{
+    background-color: #8a64ff;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#container{
+    position: relative;
+    height: 85vh;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.star{
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.astroid{
+    position: absolute;
+    background: url(./images/images.jpeg-2-removebg-preview.png);
+    height: 40px;
+    width: 40px;
+    top: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+#ship{
+    position: absolute;
+    background: url(./images/images.jpeg-removebg-preview.png);
+    height: 50px;
+    width: 50px;
+    bottom: 5px;
+    left: 48%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 11;
+}
+
+#restart_div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #292929;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+
+#restart {
+    border: none;
+    width: 100%;
+    padding: 25px;
+    color: white;
+    background-color: #8a64ff;
+    font-size: 30px;
+    margin-top: 30%;
+    overflow: hidden;
+}
+
+#help{
+	text-align: center;
+}
